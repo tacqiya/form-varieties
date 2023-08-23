@@ -1,0 +1,292 @@
+@import "../config";
+
+@media screen and (max-width: 1161px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #home {
+    #hayat {
+      .dbl_blk {
+        .left_blk {
+          .img {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  #banner {
+    background: url(../../images/main-banner.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  #home {
+    #banner {
+      background: url(../../images/main-banner.jpg) no-repeat center center;
+      background-size: cover;
+      height: 535px;
+
+      h1 {
+        padding: 60px 0;
+
+        &:after {
+          bottom: 30px;
+        }
+      }
+    }
+  }
+
+  #navbar {
+    .dbl-blk {
+      .left_blk {
+        .logos {
+          flex-direction: column;
+
+          .img:first-child {
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .right_blk {
+        .content {
+          padding: 48px;
+          padding-right: 30px;
+          padding-left: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #cfp {
+    #third_blk {
+      .dbl_blk {
+        .left_blk {
+          width: 100%;
+          margin-bottom: 20px;
+          h3 {
+            br {
+              display: none;
+            }
+          }
+        }
+        .right_blk {
+          width: 100%;
+
+          ul {
+            li {
+              ul {
+                padding-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  br.px-80 {
+    content: " ";
+    display: block;
+    margin: 40px 0 0;
+    line-height: 40px;
+  }
+
+  #home {
+    #second_blk {
+      .dbl_blk {
+        margin-left: 0;
+        .inner {
+          width: 100%;
+          margin-left: 0;
+        }
+      }
+    }
+
+    #vdo_blk {
+      .dbl_blk {
+        flex-direction: column;
+
+        .left_blk {
+          width: calc(100%);
+        }
+        .right_blk {
+          padding: 20px 0;
+          width: calc(100%);
+        }
+      }
+    }
+
+    #hayat {
+      .dbl_blk {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .left_blk {
+          width: 100%;
+          text-align: center;
+        }
+        .right_blk {
+          width: 100%;
+          margin-left: 0;
+          text-align: center;
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+
+  #call_document {
+    #second_blk {
+      .blks {
+        .blk {
+          a {
+            float: left;
+            text-align: center;
+            margin-top: 10px;
+            display: block;
+            display: inline-block;
+            width: 100%;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    #third_blk {
+      .blk {
+        background: url(../../images/submission.png) no-repeat right;
+        a {
+          margin-left: 15%;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .dbl_blk {
+      flex-direction: column;
+      .imgs {
+        margin-bottom: 10px;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 546px) {
+  #banner {
+    &:after {
+      display: none;
+    }
+    h1 {
+      padding: 100px 0;
+    }
+  }
+  #navbar {
+    .dbl-blk {
+      display: flex;
+      flex-direction: column;
+
+      .left_blk {
+        .logos {
+          float: left;
+        }
+      }
+      .right_blk {
+        .content {
+          float: right;
+          padding: 20px;
+        }
+        #drp_menu {
+          top: 61px;
+          right: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #home {
+    #banner {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  #submission_portal {
+    #submission {
+      form {
+        .blk-1 {
+          .single {
+            label {
+              display: block;
+              width: 100%;
+            }
+            input {
+              display: block;
+              width: 100%;
+            }
+          }
+        }
+
+        .blk-2{
+          .dbl_blk{
+            .inner{
+              width: 100%;
+
+              &:first-child{
+                margin-bottom: 20px;
+              }
+            }
+            .right_blk{
+              .upload{
+                width: 100%;
+                float: unset;
+              }
+            }
+          }
+        }
+
+        .blk-3{
+          .btns{
+            margin-left: 0;
+            .submit{
+              display: block;
+              width: 100%;
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #home {
+    #banner {
+      h1 {
+        font-size: 27px;
+      }
+    }
+  }
+}
