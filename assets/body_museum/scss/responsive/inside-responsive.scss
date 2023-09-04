@@ -1,0 +1,450 @@
+@import "../config";
+@media screen and (max-width: 950px) {
+    #banner {
+        .content {
+            h2 {
+                font-size: 40px;
+            }
+        }
+    }
+    #about {
+        #second_blk {
+            padding-top: 150px;
+            .dbl_blk {
+                display: flex;
+                align-items: center;
+                padding-bottom: 50px;
+            }
+            .small_blk {
+                position: relative;
+                display: flex;
+                align-items: center;
+                width: 100%;
+            }
+        }
+        #discover {
+            .dbl_blk {
+                display: flex;
+                align-items: center;
+                padding-bottom: 50px;
+            }
+        }
+    }
+    #plastination {
+        #second_blk {
+            .dbl_blk {
+                .right_blk {
+                    width: 50%;
+                }
+            }
+        }
+    }
+    #exhibits {
+        #parts {
+            .blks {
+                .blk {
+                    padding: 50px 0;
+                }
+                .blk:nth-child(odd) {
+                    .content {
+                        margin-left: 0;
+                        h3 {
+                            left: 30px;
+                        }
+                        .owl-carousel {
+                            padding-bottom: 80px;
+                        }
+                        .owl-theme {
+                            .owl-nav {
+                                top: unset;
+                                bottom: 2px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                flex-direction: row;
+                                .owl-prev {
+                                    background: url(../../images/exhibits/left_arw_black_hvr.png) center right no-repeat;
+                                    background-size: 50px;
+                                    &:hover {
+                                        background: url(../../images/exhibits/left_arw_blue_hvr.png) center right no-repeat;
+                                        background-size: 50px;
+                                    }
+                                }
+                                .owl-next {
+                                    background: url(../../images/exhibits/right_arw_black_hvr.png) center left no-repeat;
+                                    background-size: 50px;
+                                    &:hover {
+                                        background: url(../../images/exhibits/right_arw_blue_hvr.png) center left no-repeat;
+                                        background-size: 50px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .blk:nth-child(even) {
+                    .content {
+                        margin-right: 0;
+                        h3 {
+                            right: 30px;
+                        }
+                        .owl-carousel {
+                            padding-bottom: 80px;
+                        }
+                        .owl-theme {
+                            .owl-nav {
+                                top: unset;
+                                bottom: 2px;
+                                right: 50%;
+                                transform: translateX(50%);
+                                flex-direction: row;
+                                .owl-prev {
+                                    background: url(../../images/exhibits/left_arw_white_hvr.png) center right no-repeat;
+                                    background-size: 50px;
+                                    &:hover {
+                                        background: url(../../images/exhibits/left_arw_black_hvr.png) center right no-repeat;
+                                        background-size: 50px;
+                                    }
+                                }
+                                .owl-next {
+                                    background: url(../../images/exhibits/right_arw_white_hvr.png) center left no-repeat;
+                                    background-size: 50px;
+                                    &:hover {
+                                        background: url(../../images/exhibits/right_arw_black_hvr.png) center left no-repeat;
+                                        background-size: 50px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #visit {
+        #popup {
+            overflow-y: scroll;
+            padding-top: 50px;
+            margin-bottom: 50px;
+            display: block;
+            .content {
+                width: 90%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        #banner {
+            .content {
+                img {
+                    margin-top: 164px;
+                }
+            }
+        }
+        #second_blk {
+            padding-top: 100px;
+            .dbl_blk {
+                .left_blk {
+                    display: none;
+                }
+                .right_blk {
+                    width: 100%;
+                    padding-top: 50px;
+                    .times {
+                        .dbl_blk {
+                            .inner {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .location {
+                        .dbl_blk {
+                            .inner {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            #location {
+                margin-top: 50px;
+                padding: 0px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #plastination {
+        #second_blk {
+            .dbl_blk {
+                .left_blk {
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+    #news {
+        #second_blk {
+            .blks {
+                .blk {
+                    flex-direction: column;
+                    margin-bottom: 60px;
+                    .left_blk {
+                        width: 100%;
+                        margin-bottom: 30px;
+                        display: flex;
+                        &:after {
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 198px;
+                        }
+                        img {
+                            width: 60%;
+                        }
+                    }
+                    .right_blk {
+                        width: 100%;
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #home {
+        #getting {
+            .btn {
+                a {
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+    #slide-menu {
+        width: 80%;
+        &:after {
+            width: 80%;
+        }
+    }
+    #about {
+        #second_blk {
+            .dbl_blk {
+                flex-direction: column;
+                .inner {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .small_blk {
+                flex-direction: column;
+                .inner {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        #discover {
+            padding: 50px 0px;
+            .dbl_blk {
+                flex-direction: column;
+                .inner {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+        }
+    }
+    #plastination {
+        #second_blk {
+            padding-top: 130px;
+            padding-bottom: 50px;
+            .dbl_blk {
+                flex-direction: column;
+                .left_blk {
+                    margin-right: 0;
+                    padding: 25px;
+                    margin-bottom: 50px;
+                }
+                .right_blk {
+                    display: flex;
+                    justify-content: center;
+                    img {
+                        width: 90%;
+                    }
+                }
+                .inner {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #exhibits {
+        #banner {
+            .content {
+                img {
+                    width: 52%;
+                    margin-top: 122px;
+                }
+            }
+        }
+        #second_blk {
+            padding-top: 150px;
+        }
+    }
+    #news {
+        #banner {
+            .content {
+                img {
+                    width: 52%;
+                    margin-top: 178px;
+                }
+            }
+        }
+        #second_blk {
+            padding-top: 100px;
+            .blks {
+                .blk {
+                    .left_blk {
+                        &:after {
+                            right: 0;
+                        }
+                        img {
+                            width: 90%;
+                        }
+                    }
+                    .right_blk {
+                        h3 {
+                            font-size: 20px;
+                            font-weight: bold;
+                            line-height: 27px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #news_single {
+        #banner {
+            .content {
+                img {
+                    width: 52%;
+                    margin-top: 134px;
+                }
+            }
+        }
+        #second_blk {
+            padding-top: 120px;
+            h2 {
+                line-height: 29px;
+                font-size: 22px;
+            }
+            h3 {
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+    #visit {
+        #popup {
+            overflow-y: scroll;
+            .content {
+                width: 90%;
+                .inner {
+                    padding: 20px;
+                    .pc_view {
+                        display: none;
+                    }
+                    .mob_view {
+                        display: block;
+                    }
+                }
+            }
+        }
+        #second_blk {
+            .dbl_blk {
+                .right_blk {
+                    .times {
+                        margin-bottom: 30px;
+                        .dbl_blk {
+                            background: url(../../images/visit/calender.png) no-repeat top left;
+                            padding-left: 50px;
+                            .inner {
+                                h3 {
+                                    width: 100%;
+                                }
+                                p {
+                                    text-align: center;
+                                }
+                                padding-top: 39px;
+                                text-align: center;
+                                border-radius: 20px;
+                                margin-bottom: 30px;
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #register {
+        #banner {
+            h2 {
+                margin-top: 90px;
+            }
+        }
+        #second_blk {
+            .num_visitors {
+                padding: 45px 24px;
+                .inner {
+                    display: block;
+                }
+                h3 {
+                    width: 100%;
+                }
+                input.full {
+                    width: 100% !important;
+                }
+            }
+            form {
+                .row.single {
+                    margin-bottom: 20px;
+                }
+                label.full {
+                    width: 100%;
+                    margin-bottom: 0;
+                    border: 0;
+                    padding: 20px 15px 10px 0;
+                }
+                input.full {
+                    width: 100%;
+                }
+                .iti {
+                    width: 100%;
+                }
+                .submit {
+                    width: 100%;
+                }
+                .visitor_sec {
+                    .btns {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .k-input {
+        width: 100% !important;
+    }
+}

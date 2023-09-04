@@ -1,0 +1,9 @@
+.dropzone {
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(167, 167, 167);
+    border-image: none;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

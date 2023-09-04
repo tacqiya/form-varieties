@@ -26,7 +26,7 @@ if(function_exists('date_default_timezone_set')){
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . '/viggo/';
+$config['base_url'] = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . '/form-varieties/';
 
 /*
 |--------------------------------------------------------------------------

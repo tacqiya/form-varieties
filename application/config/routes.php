@@ -5,6 +5,5 @@ $route['default_controller'] = 'frontpage';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['cfp'] = 'frontpage/cfp';
-$route['submission-portal'] = 'frontpage/submission';
-$route['call-documents'] = 'frontpage/call_documents';
+$route['submission-portal'] = 'frontpage/submission_simple';
+$route['multi-bookings'] = 'frontpage/body_museum_bookings';

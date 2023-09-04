@@ -1,0 +1,32 @@
+.no-display {
+  display: none; }
+
+.table tbody tr td [data-fancybox] {
+  cursor: pointer; }
+  .table tbody tr td [data-fancybox]:hover {
+    opacity: 0.7; }
+  .table tbody tr td [data-fancybox] img {
+    width: 50px;
+    height: 50px; }
+
+.candidate-div {
+  display: none; }
+
+.candidate-1 {
+  display: block; }
+
+.cand-name {
+  cursor: pointer; }
+
+.brand-link .brand-image {
+  margin-top: 0;
+  box-shadow: none !important;
+  border-radius: 0; }
+
+.card-img,
+.card-img-top {
+  width: 200px !important;
+  height: 200px;
+  place-self: center; }
+
+/*# sourceMappingURL=admin_defined.css.map */

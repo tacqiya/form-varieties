@@ -89,3 +89,6 @@ define('TIME_ZONE', 'Asia/Dubai');
 define('TIME_ZONE_IN_UTC', 'UTC+4');
 
 define('TBL_VIGGO', 'viggo_register');
+
+define('TBL_BOOK', 'bm_booking');
+define('TBL_ADMN_LOG', 'bm_admin_login');
