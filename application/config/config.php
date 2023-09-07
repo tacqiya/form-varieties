@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+error_reporting(0);
 
 if(function_exists('date_default_timezone_set')){
     date_default_timezone_set(TIME_ZONE);
