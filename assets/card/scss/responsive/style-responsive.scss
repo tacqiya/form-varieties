@@ -1,0 +1,128 @@
+@import '../config';
+@media screen and (max-width: 1160px) {
+    .wrapper {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .img-upload {
+        background: url(../../images/icons/upload-1.png) no-repeat 50% 10px;
+        background-size: 76px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #banner {
+        img {
+            width: 50%;
+        }
+        .sub {
+            margin-top: 12%;
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #banner {
+        margin-bottom: 50px;
+        img {
+            width: 60%;
+        }
+        .sub {
+            h1 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+    #second_blk {
+        margin-bottom: 50px;
+        p {
+            text-align: left;
+        }
+    }
+    #third_blk {
+        margin-bottom: 50px;
+        form {
+            .field {
+                margin-bottom: 20px;
+                &.double {
+                    margin-left: 0;
+                    margin-bottom: 0;
+                    .blk {
+                        width: 100%;
+                        margin-bottom: 20px;
+                        margin-left: 0;
+                    }
+                }
+                &.triple {
+                    margin-left: 0;
+                    margin-bottom: 0;
+                    .blk {
+                        width: 100%;
+                        margin-bottom: 20px;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    #social {
+        .blks {
+            ul {
+                li {
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .upload-blk {
+        .upload {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    .drop-blk {
+        span {
+            left: 26%;
+            bottom: 21%;
+        }
+    }
+    .img-upload {
+        background: url(../../images/icons/upload-1.png) no-repeat 50% 115px;
+        background-size: 76px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #third_blk {
+        form {
+            .field {
+                &.check {
+                    .blk_multiple {
+                        #check_sub {
+                            .sub_button {
+                                .sub_options {
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

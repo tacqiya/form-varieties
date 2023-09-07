@@ -1,0 +1,48 @@
+@import '../config';
+#login {
+    @media screen and (max-width: 1160px) {
+        .wrapper {
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+    @media screen and (max-width: 800px) {
+        #banner {
+            img {
+                width: 50%;
+            }
+            .sub {
+                margin-top: 12%;
+                h1 {
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 500px) {
+        #banner {
+            img {
+                // width: 60%;
+            }
+            .sub {
+                h1 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+        #form_sec {
+            form {
+                width: 80%;
+                input[type=submit] {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
