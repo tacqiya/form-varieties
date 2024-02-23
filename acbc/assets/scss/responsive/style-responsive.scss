@@ -1,0 +1,366 @@
+@import "../config";
+
+@media screen and (max-width: 1161px) {
+	.wrapper {
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	#home {
+		#important_date {
+			.dbl_blk {
+				.right_blk {
+					.blks {
+						.blk {
+							&:after {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#home {
+		#important_date {
+			.dbl_blk {
+				align-items: flex-start;
+				flex-direction: column;
+				.inner {
+					width: 100%;
+				}
+
+				.left_blk {
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 955px) {
+	#slide-menu,
+	#toggle-menu {
+		display: block;
+	}
+	#home {
+		#banner {
+			#navbar {
+				.dbl_blk {
+					.right_blk {
+						display: none;
+					}
+				}
+			}
+		}
+
+		#accommodation {
+			.dbl_blk {
+				.inner {
+					width: 100%;
+				}
+			}
+
+			.owl-theme {
+				.owl-nav {
+					top: 11%;
+				}
+			}
+		}
+
+		#contact {
+			.common-title {
+				margin-bottom: 40px;
+			}
+			.dbl_blk {
+				.inner {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#home {
+		#banner {
+			.dbl_blk_2 {
+				.inner {
+					width: 100%;
+
+					&:first-child {
+						margin-bottom: 20px;
+					}
+				}
+			}
+		}
+
+		#schedule {
+			.dbl_blk {
+				.inner {
+					width: 100%;
+				}
+			}
+		}
+
+		#register {
+			.dbl_blk {
+				.inner {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#home {
+		#important_date {
+			padding: 30px;
+			.dbl_blk {
+				.right_blk {
+					.blks {
+						align-items: flex-start;
+						flex-direction: column;
+
+						.blk {
+							width: 100%;
+							margin-bottom: 20px;
+							padding-bottom: 20px;
+							border-bottom: 1px dotted #fff;
+							align-items: center;
+
+							.sec {
+								&:first-child {
+									width: 150px;
+								}
+								p {
+									br {
+										display: none;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		#accommodation {
+			.owl-theme {
+				.owl-nav {
+					top: 8%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#home {
+		#second_blk {
+			.dbl_blk {
+				.inner {
+					width: 100%;
+				}
+			}
+		}
+
+		#conference {
+			.dbl_blk {
+				.inner {
+					width: 100%;
+				}
+				.right_blk {
+					min-height: unset;
+				}
+			}
+		}
+
+		#speakers {
+			.dbl_blk {
+				.inner {
+					width: 100%;
+				}
+			}
+		}
+
+		#committee {
+			.dbl_blk {
+				.inner {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.common-title {
+		font-size: 20px;
+	}
+
+	#home {
+		#banner {
+			.dbl_blk_1 {
+				.left_blk {
+					h2 {
+						font-size: 30px;
+						width: 100%;
+					}
+				}
+				.right_blk {
+					justify-content: space-around;
+				}
+			}
+		}
+
+		#contact {
+			padding: 40px 0;
+			.dbl_blk {
+				.right_blk {
+					.blks {
+						.blk {
+							width: 100%;
+							margin-bottom: 30px;
+
+							&:last-child {
+								margin-bottom: 0;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		#schedule {
+			padding: 40px 0;
+		}
+
+		#accommodation {
+			.owl-theme {
+				.owl-nav {
+					top: 13%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	br {
+		&.px-80 {
+			content: " ";
+			display: block;
+			margin: 40px 0 0;
+			line-height: 40px;
+		}
+	}
+
+	.toggle-menu {
+		top: 70px;
+	}
+	#home {
+		#banner {
+			padding-top: 40px;
+
+			.dbl_blk_1 {
+				flex-direction: column-reverse;
+				.left_blk {
+					width: 100%;
+					text-align: center;
+					margin-top: 25px;
+				}
+			}
+			.dbl_blk_2 {
+				a {
+					width: 100%;
+					text-align: center;
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+		#second_blk {
+			.dbl_blk {
+				.left_blk {
+					padding-right: 0;
+				}
+				.right_blk {
+					padding: 30px 20px;
+
+					h3 {
+						font-size: 30px;
+					}
+				}
+			}
+		}
+
+		#speakers {
+			.owl-carousel {
+				padding-bottom: 60px;
+			}
+
+			img {
+				padding: 0 25px;
+			}
+		}
+
+		#committee {
+			.owl-carousel {
+				padding-bottom: 60px;
+			}
+
+			img {
+				padding: 0 25px;
+			}
+		}
+
+		#schedule {
+			.dbl_blk {
+				.right_blk {
+					.btns {
+						&.active {
+							&:after {
+								left: -2px;
+								top: calc(50% - 2px);
+							}
+						}
+						&:after {
+							width: 100%;
+							height: 50%;
+						}
+						.btn {
+							width: 100%;
+						}
+					}
+
+					.contents {
+						.content {
+							overflow-x: scroll;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#home {
+		#accommodation {
+			.owl-theme {
+				.owl-nav {
+					top: 8%;
+				}
+			}
+
+			a{
+				font-size: 15px;
+			}
+		}
+	}
+}
